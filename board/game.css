@@ -1,0 +1,25 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.board {
+    width: 100%;
+    height: 100%;
+    table-layout:fixed;
+    cursor: pointer;
+}
+
+.cell {
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.cell.selected {
+    background: red;
+}

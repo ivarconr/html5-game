@@ -1,0 +1,27 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.board {
+    width: 100%;
+    height: 100%;
+    table-layout:fixed;
+    cursor: pointer;
+}
+
+.movable {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    opacity:0.4;
+    cursor:pointer;
+    border:solid 2px black;
+    z-index: 100;
+    border-radius: 50px;
+}
